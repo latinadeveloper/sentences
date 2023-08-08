@@ -8,7 +8,7 @@ namespace Sentences.Models
         [Key]
         public int Id { get; set; }
 
-        [Column(TypeName ="nvarchar(100")]
+        [Column(TypeName ="nvarchar(100)")]
         public string Name { get; set; }
 
         public int GradeLevel { get; set; }
